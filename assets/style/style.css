@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgrey;    
+}
+
+header {
+    background-color:  #000000;    
+    height: 55px;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 100px;
+    margin: 5px 50px;
+}
+
+.container li {
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    padding: 0 5px;
+}
+
+.botao-assinar {
+    background-color: #E20813;
+    border-radius: 2px;
+    padding: 7px 20px;
+}
+
+.botao-assinar:hover {
+    background-color: #e81722;
+}
+
+.botao-entrar {
+    background-color: #000000;
+    border: solid #929292 1px;
+    border-radius: 2px;
+    padding: 7px 20px;
+}
+
+.botao-entrar:hover {
+    background-color: #2D2D2D;
+}
+
+.container a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    background-image: linear-gradient(to right, #000000 10%, #00000000, #00000000), url(../img/arcane-capa.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-serie {
+    margin-left: 100px;
+    width: 550px;
+}
+
+.container-serie a {
+    color: #929292;
+    text-decoration: none;
+}
+
+.container-serie a:hover {
+    text-decoration: underline;
+}
+
+.container-serie img {
+    width: 280px;
+    margin-top: 250px;
+}
+
+.serie-informacoes {
+    margin-top: 50px;
+}
+
+.serie-informacoes h2 {
+    color: white;
+}
+
+.serie-informacoes p {
+    color: #929292;
+    margin-top: 20px;
+}
+
+.idade {
+    border: solid 1px #929292;
+    padding: 0 5px;
+}
+
+.descricao {
+    margin-top: 30px;
+    color: white;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.info-color {
+    color: #929292;
+}
